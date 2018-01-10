@@ -18,6 +18,18 @@ public class VNode {
 		}
 	}
 
+	public int mainSkill() {
+		return this.mainSkill;
+	}
+
+	public int skill1() {
+		return this.skill1;
+	}
+
+	public int skill2() {
+		return this.skill2;
+	}
+
 	@Override
 	public boolean equals(Object other) {
 		// Two nodes can be equal as long as they contain the same 3 skills, and
